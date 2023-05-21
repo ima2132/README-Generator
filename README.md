@@ -1,44 +1,51 @@
 # README Generator
 ## Table of Contents 
 - [Description](#description)
-- [User Story](#user-story)
-- [Acceptance Criteria](#acceptance-criteria)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Deployed URL](#deployed-url)
+- [Contact](#contact)
+- [Demonstration](#demonstration)
 
 ## Description 
 
-## User Story
-As a developer, I want a README generator so that I can quickly create a professional README for a new project.
+Having a well-crafted GitHub profile plays a significant role in establishing your professional career as a developer. GitHub is often the first place that prospective employers look to evaluate your capabilities and level of professionalism. In today's digital age of networking, it is essential to showcase your projects and actively engage with fellow developers, as it can lead to innovative opportunities and collaborations.
 
-## Acceptance Criteria
-* GIVEN a command-line application that accepts user input
-* WHEN I am prompted for information about my application repository
-* THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of
-Contents, Installation, Usage, License, Contributing, Tests, and Questions
-* WHEN I enter my project title
-* THEN this is displayed as the title of the README
-* WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-* THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-* WHEN I choose a license for my application from a list of options
-* THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled 
-License that explains which license the application is covered under
-* WHEN I enter my GitHub username
-* THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-* WHEN I enter my email address
-* THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-* WHEN I click on the links in the Table of Contents
-* THEN I am taken to the corresponding section of the README
+
+This program utilizes the `Inquirer` package to generate a well-structured and professional README file. With this application, you can easily include sections such as usage instructions, installation guidelines, issue reporting guidelines, and contribution guidelines in your README file.
 
 ## Installation 
+To install the program, you will need to have `VS Code` and `Node.js` installed. First, clone my repo. You will then need to install dependencies in order to use the README Generator. 
+
+To generate the README, run the following command in your terminal:
+
+`npm init -y`
+
+along with 
+
+`npm install`
+
 
 ## Usage
+
+To create your own README file, you can follow these steps:
+
+1. Clone my repo.
+2. Install the necessary npm package dependencies by running the command `npm install`, which will install the packages specified in the `package.json` file.
+3. Invoke the application by running the command `node index.js`.
+4. Answer the questions prompted in the command line to create a markdown file for your README.
+
 
 ## License
 Please refer to the LICENSE listed in the repo. 
 
-## Deployed URL 
 
+## Contact 
+For any questions about this project, you can contact me at:
+
+GitHub: http://github.com/ima2132
+Email: ima2132@columbia.edu 
+
+## Demonstration
+Click on the link below to watch a video demonstration of how to use the application. 
 
