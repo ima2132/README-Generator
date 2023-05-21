@@ -44,6 +44,7 @@ Please refer to the LICENSE listed in the repo.
 For any questions about this project, you can contact me at:
 
 GitHub: http://github.com/ima2132
+
 Email: ima2132@columbia.edu 
 
 ## Demonstration
