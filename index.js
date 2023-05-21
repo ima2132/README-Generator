@@ -1,7 +1,8 @@
 //include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateMarkdown = require('./generateMarkdown.js'); 
+const generateMarkdown = require('./utils/generateMarkdown.js'); 
+const util = require('util');
 
 // an array of questions for user input
 const questions = [
@@ -35,14 +36,12 @@ const questions = [
     {
         type: 'input',
         name: 'installation',
-        message: 'What command should be run to install dependencies?',
-        default: 'npm i',
+        message: 'Are there any commands that should be run to install dependencies?',
     },
     {
         type: 'input',
         name: 'tests',
-        message: 'What command should be run to run tests?',
-        default: 'npm test',
+        message: 'Are there any commands that should be run to run tests?',
     },
     {
         type: 'input',
