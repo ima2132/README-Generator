@@ -51,6 +51,7 @@ Email: ima2132@columbia.edu
 Click on the link below to watch a video demonstration of how to use the application:
 
 
-[README generator demo.webm](https://github.com/ima2132/README-Generator/assets/117132129/e84d70ec-0339-4f5d-8167-21a789525fbb)
+[README Generator Demo.webm](https://github.com/ima2132/README-Generator/assets/117132129/15f11a6a-2242-41dd-819f-4a28599bbd06)
+
 
 
