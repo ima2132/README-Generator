@@ -36,8 +36,12 @@ const questions = [
             { name: 'GPL 3.0', value: 'gpl-3.0' },
             { name: 'Boost 1.0', value: 'bsl-1.0' },
             { name: 'None', value: 'none' },
+            { name: 'AGPL 3.0', value: 'agpl-3.0' },
+            { name: 'LGPL 3.0', value: 'lgpl-3.0' },
+            { name: 'MPL 2.0', value: 'mpl-2.0' },
+            { name: 'Unlicense', value: 'unlicense' },
           ],
-        },       
+        },  
     {
         type: 'input',
         name: 'installation',
