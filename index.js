@@ -26,13 +26,18 @@ const questions = [
         name: 'description',
         message: 'Please write a short description of your project',
     },
-    {
-        type: 'list',
-        message: 'What kind of license should your project have?',
-        name: 'license',
-        choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None'],
-      },
-      
+        {
+          type: 'list',
+          message: 'What kind of license should your project have?',
+          name: 'license',
+          choices: [
+            { name: 'MIT', value: 'mit' },
+            { name: 'Apache 2.0', value: 'apache-2.0' },
+            { name: 'GPL 3.0', value: 'gpl-3.0' },
+            { name: 'Boost 1.0', value: 'bsl-1.0' },
+            { name: 'None', value: 'none' },
+          ],
+        },       
     {
         type: 'input',
         name: 'installation',

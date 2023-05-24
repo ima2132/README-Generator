@@ -1,5 +1,6 @@
 // a function to return the license badge
 function renderLicenseBadge(license) {
+  console.log('license badge', license)
   switch (license) {
     case "agpl-3.0":
       return `![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)`;
@@ -24,6 +25,7 @@ function renderLicenseBadge(license) {
 
 // a function to return the license link
 function renderLicenseLink(license) {
+  console.log('render license link', license)
   switch (license) {
     case "agpl-3.0":
       return "https://www.gnu.org/licenses/agpl-3.0";
